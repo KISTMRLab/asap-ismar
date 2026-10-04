@@ -11,3 +11,7 @@ This repository parses `.fdx` XML and a structured-text fallback, produces a pla
 ## Explicit assumptions and substitutions
 
 This is an independent educational reimplementation. Parenthetical emotion, gaze targeting, prop anchors, detailed action parsing, and the TF-IDF resolver are assumptions informed by the later journal architecture, rather than claims about the five-page ISMAR implementation. Durations, stage coordinates, SVG actors, and browser rendering are engineering choices. No Unity renderer, trained model, mocap, commercial TTS, 3D asset, institute code, or paper dataset is reproduced.
+
+## Interactive implementation
+
+The local demo compiles the actual parser/resolver output into an original procedural Three.js stage. It supports text/FDX upload, editable character/prop/action catalogs, timeline scrubbing, dialogue playback, PNG storyboard capture and timeline/storyboard export. Recompilation resets the stage. The lexical example requires no weights; semantic mode uses independently configurable local gesture/action encoders. Model files, motion libraries and vendor downloads remain outside Git. The journal's GestureCLR pose-matching lineage is documented as a research dependency; this compact renderer uses authored poses rather than claiming recovered motion capture. Early ASAP variants expose a subset of this component implementation and do not claim the later journal evaluation. Optional Kokoro and faster-whisper adapters replace browser speech/typed input; mouth motion is an approximate envelope, not aligned visemes.
