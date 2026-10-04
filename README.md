@@ -10,7 +10,7 @@
 
 ![Scientific method schematic for asap-ismar](paper-assets/method.svg)
 
-*New scientific workflow schematic for the early ISMAR paper, based on its available publication description. This is not a figure extracted from the later ASAP journal article.*
+*Graphical abstract diagram. Screenplay structure drives coordinated virtual-actor behavior and previsualization.*
 
 ## Why this research
 
