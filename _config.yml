@@ -1,0 +1,17 @@
+title: "ASAP ISMAR"
+description: "An early ASAP tool turns script structure into animated previews."
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - src
+  - tests
+  - .venv
+  - data
+  - runs
+  - outputs
+  - checkpoints
+  - pyproject.toml
+  - requirements.txt
+  - package.json
+  - package-lock.json

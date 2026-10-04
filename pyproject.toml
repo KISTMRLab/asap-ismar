@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asap-ismar-educational"
+version = "0.1.0"
+description = "Independent educational implementation of the ASAP ISMAR capture workflow"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+semantic = ["sentence-transformers>=3.0"]
+
+[project.scripts]
+asap-ismar = "asap_multi.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
