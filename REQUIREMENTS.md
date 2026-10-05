@@ -10,7 +10,7 @@ This repository parses `.fdx` XML and a structured-text fallback, produces a pla
 
 ## Explicit assumptions and substitutions
 
-This is an independent educational reimplementation. Parenthetical emotion, gaze targeting, prop anchors, detailed action parsing, and the TF-IDF resolver are assumptions informed by the later journal architecture, rather than claims about the five-page ISMAR implementation. Durations, stage coordinates, SVG actors, and browser rendering are engineering choices. No Unity renderer, trained model, mocap, commercial TTS, 3D asset, institute code, or paper dataset is reproduced.
+This is an independent educational reimplementation. The following are assumptions informed by the later journal architecture, rather than claims about the five-page ISMAR implementation: seven-emotion parenthetical scoring with three levels and manual overrides; gaze targeting; prop instances with stand points; subject extraction; plausible action–object–position matching with rejection; and the stemmed TF-IDF and optional local Sentence-BERT matching. Durations, stage coordinates, SVG actors, and browser rendering are engineering choices. No Unity renderer, trained model, mocap, commercial TTS, 3D asset, institute code, or paper dataset is reproduced.
 
 ## Interactive implementation
 
